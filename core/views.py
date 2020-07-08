@@ -35,7 +35,19 @@ You can message "misconceptions" to know some of the common Covid19 misconceptio
         	 msg.body(response)
         	 responded = True  
                 
-                
+        
+        if incoming_msg == 'misconceptions':
+        	 response = emoji.emojize("""
+~:sunglasses:A vaccine to prevent COVID-19 is available.~ No vaccine currently exists
+
+~:sunglasses:Drinking Alcohol Will Protect You from Coronavirus~ Alcohol does not kill the viruses inside your body
+
+~:sunglasses:Coronavirus only affects older people~All people of all ages are suspectible to Covid19
+""", use_aliases=True)
+        	 msg.body(response)
+        	 responded = True
+        
+        
         if incoming_msg == 'owner':
         	 response = emoji.emojize("""
 :sunglasses:Developed by Masiror Kibet @2020
