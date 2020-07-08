@@ -26,7 +26,7 @@ def index(request):
 :sunglasses:Always stay updated on Covid19 news. You can get verified information from https://www.health.go.ke/covid-19/
 :sunglasses:Common signs and symptoms may include headaches, bodyache, fever and shortness of breath
 :sunglasses:Avoid kissing, hugging and handshakes with people who have flu-like symptoms
-This infformation is given by the ministry of health Kenya. 
+This information is given by the ministry of health Kenya. 
 Incase you have these symptoms, call 0800 721 316
 
 
@@ -35,7 +35,16 @@ Incase you have these symptoms, call 0800 721 316
         	 responded = True  
                 
                 
+        if incoming_msg == 'owner':
+        	 response = emoji.emojize("""
+:sunglasses:Developed by Masi Kibe @2020
+
+
+""", use_aliases=True)
+        	 msg.body(response)
+        	 responded = True        
    
+        
         
         if incoming_msg == 'hello':
         	 response = emoji.emojize("""
