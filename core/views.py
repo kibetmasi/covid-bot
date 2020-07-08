@@ -28,8 +28,6 @@ def index(request):
 :kissing_heart:Avoid kissing, hugging and handshakes with people who have flu-like symptoms
 _This information is given by the ministry of health Kenya._
 _Incase you have these symptoms, call 0800 721 316_
-
-
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True  
@@ -38,25 +36,34 @@ _Incase you have these symptoms, call 0800 721 316_
         if incoming_msg == 'owner':
         	 response = emoji.emojize("""
 :sunglasses:Developed by Masi Kibe @2020
-
-
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True        
    
         
+        if incoming_msg == 'sysmtoms':
+        	 response = emoji.emojize("""
+:sunglasses:head aches
+
+
+""", use_aliases=True)
+        	 msg.body(response)
+        	 responded = True
+        
         
         if incoming_msg == 'hello':
         	 response = emoji.emojize("""
-*Hey! I am CovidBot.* I give latest Corona virus stats in Kenya :man: :man: :ke:
+*Hey! I am CovidBot.* I give latest Corona virus stats in Kenya :man: 
 Let's be friends :wink:
 *You can give me the following commands:*
 :black_small_square: *'kenya':* Get stats for Covid19 :wave:
 :black_small_square: *'yes':* Get daily stats for Covid :wave:
-:black_small_square: *'statistics <country>'*: Show the latest COVID19 statistics for each country. :earth_americas:
-:black_small_square: *'statistics <prefix>'*: Show the latest COVID19 statistics for all countries starting with that prefix. :globe_with_meridians:
+:black_small_square: *Symptoms*: show Covid19 symptoms:
 :black_small_square: *prevention*: show various ways to protect oneself from covid:
 :black_small_square: *Owner*: show owner details:
+:black_small_square: *'statistics <country>'*: Show the latest COVID19 statistics for each country. :earth_americas:
+:black_small_square: *'statistics <prefix>'*: Show the latest COVID19 statistics for all countries starting with that prefix. :globe_with_meridians:
+
 
 """, use_aliases=True)
         	 msg.body(response)
