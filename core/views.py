@@ -30,7 +30,7 @@ def index(request):
 _This information is given by the ministry of health Kenya._
 _Incase you have these symptoms, call 0800 721 316_
 
-You can message "misconceptions" to know some of the common Covid19 misconceptions in Kenya
+You can message me "misconceptions" to know some of the common Covid19 misconceptions in Kenya
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True  
@@ -42,7 +42,9 @@ You can message "misconceptions" to know some of the common Covid19 misconceptio
 
 ~:sunglasses:Drinking Alcohol Will Protect You from Coronavirus~ Alcohol does not kill the viruses inside your body
 
-~:sunglasses:Coronavirus only affects older people~All people of all ages are suspectible to Covid19
+~:sunglasses:Coronavirus only affects older people~ All people of all ages are suspectible to Covid19
+
+_Only obtain news about the pandemic from reputable sources!_
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True
