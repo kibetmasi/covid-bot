@@ -33,6 +33,15 @@ Incase you have these symptoms, call 0800 721 316
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True  
+                
+                
+                
+                        if incoming_msg == 'Owner':
+        	 response = emoji.emojize("""
+:sunglasses: Strathmore project developed by Masi K for final year project.
+""", use_aliases=True)
+        	 msg.body(response)
+        	 responded = True  
         
         
         
