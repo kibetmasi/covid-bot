@@ -35,17 +35,30 @@ _Incase you have these symptoms, call 0800 721 316_
                 
         if incoming_msg == 'owner':
         	 response = emoji.emojize("""
-:sunglasses:Developed by Masi Kibe @2020
+:sunglasses:Developed by Masiror Kibet @2020
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True        
    
         
-        if incoming_msg == 'sysmtoms':
+        if incoming_msg == 'symptoms':
         	 response = emoji.emojize("""
-:sunglasses:head aches
+:pill:The novel CoronaVirus symptoms may include: 
+*Most common sysmtoms;*
+:heavy_check_mark: Fever
+:heavy_check_mark: Dry coughs
+:heavy_check_mark: Tiredness
+*Less common symptoms;*
+:heavy_check_mark: Running stomach
+:heavy_check_mark: Loss of taste or smell
+:heavy_check_mark: Sore throat
+*Serious symptoms;*
+:heavy_check_mark: Chest pain or pressure
+:heavy_check_mark: Loss of speech or movement
+:heavy_check_mark: Difficulty in breathing
 
-
+_If you feel the above symptoms or suspect someone, call the Ministry of Health hotline 0800721316, 0732353535, 072947141_
+Save a life:pray:
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True
