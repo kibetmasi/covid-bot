@@ -19,14 +19,14 @@ def index(request):
 
         if incoming_msg == 'hello':
         	 response = emoji.emojize("""
-*Hey! I am the MasirorBot* I give latest Corona virus stats:sunglasses:
+*Hey! I am CovidBot* I give latest Corona virus stats in Kenya :sunglasses:
 Let's be friends :wink:
 *You can give me the following commands:*
-*testingggggggggggg:*
 :black_small_square: *'kenya':* Get stats for Covid19 :wave:
 :black_small_square: *'yes':* Get daily stats for Covid :wave:
 :black_small_square: *'statistics <country>'*: Show the latest COVID19 statistics for each country. :earth_americas:
 :black_small_square: *'statistics <prefix>'*: Show the latest COVID19 statistics for all countries starting with that prefix. :globe_with_meridians:
+:black_small_square: *prevention*: show various ways to protect oneself from covid:
 
 """, use_aliases=True)
         	 msg.body(response)
