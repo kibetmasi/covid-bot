@@ -17,6 +17,21 @@ def index(request):
         resp = MessagingResponse()
         msg = resp.message()
 
+        
+        
+        if incoming_msg == 'hello':
+        	 response = emoji.emojize("""
+:sunglasses:Wash your hands regularly with plenty of soap and water
+
+""", use_aliases=True)
+        	 msg.body(response)
+        	 responded = True  
+        
+        
+        
+        
+        
+        
         if incoming_msg == 'hello':
         	 response = emoji.emojize("""
 *Hey! I am CovidBot* I give latest Corona virus stats in Kenya :sunglasses:
