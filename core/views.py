@@ -19,7 +19,7 @@ def index(request):
 
         
         
-        if incoming_msg == 'hello':
+        if incoming_msg == 'prevention':
         	 response = emoji.emojize("""
 :sunglasses:Wash your hands regularly with plenty of soap and water
 
