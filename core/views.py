@@ -30,7 +30,23 @@ Let's be friends :wink:
 
 """, use_aliases=True)
         	 msg.body(response)
-        	 responded = True       
+        	 responded = True  
+                
+                
+                
+                if incoming_msg == 'prevention':
+        	 response = emoji.emojize("""
+You can prevent Covid by washing your hands with plenty of soap and water
+Cover your mouth when you cough 
+
+
+""", use_aliases=True)
+        	 msg.body(response)
+        	 responded = True
+                
+                
+                
+                
         elif incoming_msg == 'kenya':
             # returns a quote
             r = requests.get('https://corona.lmao.ninja/v2/countries/kenya')
