@@ -48,7 +48,7 @@ _Incase you have these symptoms, call 0800 721 316_
         
         if incoming_msg == 'hello':
         	 response = emoji.emojize("""
-*Hey! I am CovidBot* I give latest Corona virus stats in Kenya :sunglasses:
+*Hey! I am CovidBot.* I give latest Corona virus stats in Kenya :man: :man: :ke:
 Let's be friends :wink:
 *You can give me the following commands:*
 :black_small_square: *'kenya':* Get stats for Covid19 :wave:
