@@ -25,7 +25,7 @@ def index(request):
 :sunglasses:Always cover your mouth with a cloth when sneezing or coughing
 :sunglasses:Always stay updated on Covid19 news. You can get verified information from https://www.health.go.ke/covid-19/
 :sunglasses:Common signs and symptoms may include headaches, bodyache, fever and shortness of breath
-:sunglasses:Avoid kissing, hugging and handshakes with people who have flu-like symptoms
+:kissing:Avoid kissing, hugging and handshakes with people who have flu-like symptoms
 This information is given by the ministry of health Kenya. 
 Incase you have these symptoms, call 0800 721 316
 
