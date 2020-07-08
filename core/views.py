@@ -22,7 +22,6 @@ def index(request):
 *Hey! I am the MasirorBot* I give latest Corona virus stats:sunglasses:
 Let's be friends :wink:
 *You can give me the following commands:*
-*testttt:*
 :black_small_square: *'kenya':* Get stats for Covid19 :wave:
 :black_small_square: *'yes':* Get daily stats for Covid :wave:
 :black_small_square: *'statistics <country>'*: Show the latest COVID19 statistics for each country. :earth_americas:
