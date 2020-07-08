@@ -21,7 +21,14 @@ def index(request):
         
         if incoming_msg == 'prevention':
         	 response = emoji.emojize("""
-:sunglasses:Wash your hands regularly with plenty of soap and water
+:sunglasses:Wash your hands regularly with plenty of soap and water(or use hand-based alcohol sanitiser)
+:sunglasses:Always cover your mouth with a cloth when sneezing or coughing
+:sunglasses:Always stay updated on Covid19 news. You can get verified information from https://www.health.go.ke/covid-19/
+:sunglasses:Common signs and symptoms may include headaches, bodyache, fever and shortness of breath
+:sunglasses:Avoid kissing, hugging and handshakes with people who have flu-like symptoms
+This infformation is given by the ministry of health Kenya. 
+Incase you have these symptoms, call 0800 721 316
+
 
 """, use_aliases=True)
         	 msg.body(response)
@@ -42,6 +49,7 @@ Let's be friends :wink:
 :black_small_square: *'statistics <country>'*: Show the latest COVID19 statistics for each country. :earth_americas:
 :black_small_square: *'statistics <prefix>'*: Show the latest COVID19 statistics for all countries starting with that prefix. :globe_with_meridians:
 :black_small_square: *prevention*: show various ways to protect oneself from covid:
+:black_small_square: *Owner*: show owner details:
 
 """, use_aliases=True)
         	 msg.body(response)
