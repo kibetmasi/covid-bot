@@ -26,8 +26,11 @@ def index(request):
 :tv:Always stay updated on Covid19 news. You can get verified information from https://www.health.go.ke/covid-19/
 :dizzy_face:Common signs and symptoms may include headaches, bodyache, fever and shortness of breath
 :kissing_heart:Avoid kissing, hugging and handshakes with people who have flu-like symptoms
+
 _This information is given by the ministry of health Kenya._
 _Incase you have these symptoms, call 0800 721 316_
+
+You can message "misconceptions" to know some of the common Covid19 misconceptions in Kenya
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True  
@@ -66,7 +69,7 @@ Save a life:pray:
         
         if incoming_msg == 'hello':
         	 response = emoji.emojize("""
-*Hey! I am CovidBot.* I give latest Corona virus stats in Kenya :man: 
+*Hey! I am CovidBot.* I give latest Corona virus stats, preventions and symptoms in Kenya :man: 
 Let's be friends :wink:
 *You can give me the following commands:*
 :black_small_square: *'kenya':* Get stats for Covid19 :smiley:
