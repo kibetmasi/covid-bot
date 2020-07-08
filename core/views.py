@@ -34,19 +34,7 @@ Let's be friends :wink:
                 
                 
                 
-                if incoming_msg == 'prevention':
-        	 response = emoji.emojize("""
-You can prevent Covid by washing your hands with plenty of soap and water:sunglasses:
-Cover your mouth when you cough 
-
-
-""", use_aliases=True)
-        	 msg.body(response)
-        	 responded = True
-                
-                
-                
-                
+               
         elif incoming_msg == 'kenya':
             # returns a quote
             r = requests.get('https://corona.lmao.ninja/v2/countries/kenya')
