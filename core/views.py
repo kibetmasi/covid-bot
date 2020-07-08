@@ -36,7 +36,7 @@ Let's be friends :wink:
                 
                 if incoming_msg == 'prevention':
         	 response = emoji.emojize("""
-You can prevent Covid by washing your hands with plenty of soap and water
+You can prevent Covid by washing your hands with plenty of soap and water:sunglasses:
 Cover your mouth when you cough 
 
 
