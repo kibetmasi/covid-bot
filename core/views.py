@@ -86,12 +86,12 @@ Save a life:pray:
 *Hey! I am CovidBot.* I give latest Corona virus stats, preventions and symptoms in Kenya :man: 
 Let's be friends :wink:
 *You can give me the following commands:*
-:black_small_square: *'kenya':* Get stats for Covid19 :smiley:
+:black_small_square: *'kenya':* Get stats for Covid19 :smiley::earth_africa:
 :black_small_square: *'yes':* Get daily stats for Covid :smiley:
 :black_small_square: *Symptoms*: show Covid19 symptoms:
 :black_small_square: *prevention*: show various ways to protect oneself from covid:
 :black_small_square: *'statistics <country>'*: Show the latest COVID19 statistics for each country. :earth_americas:
-:black_small_square: *'statistics <prefix>'*: Show the latest COVID19 statistics for all countries starting with that prefix. :globe_with_meridians:/play greyjoy
+:black_small_square: *'statistics <prefix>'*: Show the latest COVID19 statistics for all countries starting with that prefix. :globe_with_meridians:/
 
 
 """, use_aliases=True)
