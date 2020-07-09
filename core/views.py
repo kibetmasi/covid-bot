@@ -86,7 +86,7 @@ Save a life:pray:
 *Hey! I am CovidBot.* I give latest Corona virus stats, preventions and symptoms in Kenya :man: 
 Let's be friends :wink:
 *You can give me the following commands:*
-:black_small_square: *'kenya':* Get stats for Covid19 :smiley::earth_africa:
+:black_small_square: *'kenya':* Get stats for Covid19::earth_africa: 
 :black_small_square: *'yes':* Get daily stats for Covid :smiley:
 :black_small_square: *Symptoms*: show Covid19 symptoms:
 :black_small_square: *prevention*: show various ways to protect oneself from covid:
