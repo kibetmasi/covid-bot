@@ -54,7 +54,7 @@ _Only obtain news about the pandemic from reputable sources!_
         
         if incoming_msg == 'owner':
         	 response = emoji.emojize("""
-:heart:
+:sunglasses:Covidbot ICS2020 MasiK
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True        
