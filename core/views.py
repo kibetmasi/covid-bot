@@ -25,7 +25,7 @@ def index(request):
 :mask:Always cover your mouth with a cloth when sneezing or coughing
 :tv:Always stay updated on Covid19 news. You can get verified information from https://www.health.go.ke/covid-19/
 :dizzy_face:Common signs and symptoms may include headaches, bodyache, fever and shortness of breath
-:kissing_heart:Avoid kissing, hugging and handshakes with people who have flu-like symptoms
+:kissing_heart:Avoid kissing, hugging and handshakes with people who have flu-like symptomssssssssssssssssssssssssssssssss
 
 _This information is given by the ministry of health Kenya._
 _Incase you have these symptoms, call 0800 721 316_
@@ -91,7 +91,7 @@ Let's be friends :wink:
 :black_small_square: *Symptoms*: show Covid19 symptoms:
 :black_small_square: *prevention*: show various ways to protect oneself from covid:
 :black_small_square: *'statistics <country>'*: Show the latest COVID19 statistics for each country. :earth_americas:
-:black_small_square: *'statistics <prefix>'*: Show the latest COVID19 statistics for all countries starting with that prefix. :globe_with_meridians:/ AAAA
+:black_small_square: *'statistics <prefix>'*: Show the latest COVID19 statistics for all countries starting with that prefix. :globe_with_meridians:
 
 
 """, use_aliases=True)
