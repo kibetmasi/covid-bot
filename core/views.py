@@ -26,7 +26,6 @@ def index(request):
 :tv:Always stay updated on Covid19 news. You can get verified information from https://www.health.go.ke/covid-19/
 :dizzy_face:Common signs and symptoms may include headaches, bodyache, fever and shortness of breath
 :kissing_heart:Avoid kissing, hugging and handshakes with people who have flu-like symptoms
-This is a test to see if my project works until now
 :heart:
 
 _This information is given by the ministry of health Kenya._
