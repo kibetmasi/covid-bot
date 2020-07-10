@@ -21,7 +21,7 @@ def index(request):
         
         if incoming_msg == 'prevention':
         	 response = emoji.emojize("""
-:clap:Wash your hands regularly with plenty of soap and water(or use hand-based alcohol sanitiser)
+:clap:Wash your hands regularly with plenty of soap and water(or use hand-based alcohol sanitiser))))))))))))))))))))))))))))))))))))))))))))
 :mask:Always cover your mouth with a cloth when sneezing or coughing
 :tv:Always stay updated on Covid19 news. You can get verified information from https://www.health.go.ke/covid-19/
 :dizzy_face:Common signs and symptoms may include headaches, bodyache, fever and shortness of breath
