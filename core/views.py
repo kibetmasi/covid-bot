@@ -53,7 +53,7 @@ _Only obtain news about the pandemic from reputable sources!_
         
         if incoming_msg == 'owner':
         	 response = emoji.emojize("""
-:sunglasses:Quinn ndare bhoke:laughing::laughing::laughing::laughing:
+:sunglasses:ICS Project by MasiK@2020:laughing::laughing::laughing::laughing:
 """, use_aliases=True)
         	 msg.body(response)
         	 responded = True        
